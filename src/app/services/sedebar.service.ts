@@ -13,6 +13,8 @@ export class SedebarService {
         { tiulo: 'Principal', url: '/'},
         { tiulo: 'ProgressBar', url: './progress'},
         { tiulo: 'Graficas', url: './grafica'},
+        { tiulo: 'Promesas', url: './promesa'},
+        { tiulo: 'Rxjs Promesas', url: './rxjspromesas'},
         // { tiulo: 'Principal', url: '/settings'},
       ],
     }

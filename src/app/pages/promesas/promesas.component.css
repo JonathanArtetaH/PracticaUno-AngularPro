@@ -1,0 +1,16 @@
+.card-body {
+    text-align: center;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+#card:hover {
+    cursor: pointer;
+    box-shadow: 3px 7px rgba(0, 0, 0, 0.626);
+}
