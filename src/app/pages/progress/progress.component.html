@@ -1,1 +1,42 @@
-<p>progress works!</p>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Striped Progress bar </h4>
+                <div class="progress m-t-20">
+
+                    <div class="progress-bar active bg-info progress-bar-striped" style="height:10px;" role="progressbar" [style.width.%]="progrsoUno">
+                    </div>
+                </div>
+                <div class="lblPorcentaje mt-2 text-center text-info font-weight-bold"> {{ progrsoUno }} %</div>
+
+                <div class="progress m-t-20">
+                    <div class="progress-bar active bg-warning progress-bar-striped" style="height:10px;" role="progressbar" [style.width.%]="progrsoDos">
+                    </div>
+                </div>
+
+                <div class="lblPorcentaje mt-2 text-center text-warning font-weight-bold"> {{ progrsoDos }} %</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="row">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <app-ingrementador [progreso]="10" (valReturn)="progrsoUno = $event" [colorBtn]="'btn bg-info'"></app-ingrementador>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <app-ingrementador [progreso]="10" (valReturn)="progrsoDos = $event" [colorBtn]="'btn btn-warning'"></app-ingrementador>
+            </div>
+        </div>
+    </div>
+</div>

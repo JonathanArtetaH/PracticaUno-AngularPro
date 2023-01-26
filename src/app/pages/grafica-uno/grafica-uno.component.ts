@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ChartData, ChartType } from 'chart.js';
 
 @Component({
   selector: 'app-grafica-uno',
@@ -7,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class GraficaUnoComponent implements OnInit {
 
   constructor() { }
+
+  
+
 
   ngOnInit(): void {
   }

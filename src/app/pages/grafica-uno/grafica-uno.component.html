@@ -1,1 +1,16 @@
-<p>grafica-uno works!</p>
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-grafica [Titulo]="'Productos 1'" [typeGrafica]="'pie'" [nameParams]="['Producto 1','Producto 2','Producto 3','Producto 4']" [valoresParams]="[50,5,60,50]" [ColorsParams]="['#800000','#36454f','#61969a','#9a617a']"></app-grafica>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-grafica [Titulo]="'Productos 2'" [typeGrafica]="'bar'" [nameParams]="['Producto 10','Producto 20','Producto 30','Producto 40']" [valoresParams]="[50,5,60,50]" [ColorsParams]="['#cdcd00','#063a5b','#9a6561','#008080']"></app-grafica>
+            </div>
+        </div>
+    </div>
+</div>

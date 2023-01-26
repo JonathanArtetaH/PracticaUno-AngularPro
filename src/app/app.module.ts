@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component'; 
 import { PagesModule } from './pages/pages.module'; 
 import { AuthModule } from './auth/auth.module';
-import { NopagesfoundComponent } from './nopagesfound/nopagesfound.component';
+import { NopagesfoundComponent } from './nopagesfound/nopagesfound.component';  
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { NopagesfoundComponent } from './nopagesfound/nopagesfound.component';
     BrowserModule,
     AppRoutingModule,
     PagesModule, 
-    AuthModule
+    AuthModule, 
   ],
 
   providers: [],

@@ -1,0 +1,8 @@
+<div class="container" *ngIf="doughnutChartLabels.length>0">
+
+    <h3>{{Titulo}}</h3>
+
+    <canvas baseChart class="chart" [data]="doughnutChartData" [type]="doughnutChartType" width="60%">
+    </canvas>
+
+</div>
